@@ -10,7 +10,7 @@
  
  30 1-23/6 * * * /root/every_6hours.sh
  
- 30 \*/6 * * * /root/every_6hours.sh
+ 30 */6 * * * /root/every_6hours.sh
  
  0 2 * * * /root/backup.sh
  
