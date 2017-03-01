@@ -1,3 +1,24 @@
+### 기본명령 
+
+ - 예약작업 수동 등록 `crontab -e`
+ - 예약작업 모두 삭제 `crontab -r` 
+ - 예약작업 모두 나열 `crontab -l`
+ - `crontab -e` 명령으로 편집기를 연 뒤에, 아래와 같은 형태로 예약작업 목록을 라인별로 삽입한다. 
+ 
+ ```
+ * * * * * /root/every_1min.sh 
+ 
+ 30 1-23/6 * * * /root/every_6hours.sh
+ 
+ 30 \*/6 * * * /root/every_6hours.sh
+ 
+ 0 2 * * * /root/backup.sh
+ 
+ */10 * * * * /root/every_10min.sh
+ 
+ 15,45 * * * * /root/every_30min.sh
+ ```
+ 
 ### 오답노트
  - \* \* \* \* \* 는 매 1분을 나타냄.
  - \*/2 \* \* \* \* 는 매 2분을 나타냄
