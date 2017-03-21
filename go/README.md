@@ -8,7 +8,7 @@
 - [x] Switch
 - [x] Arrays
 - [x] Slices
- - [ ] [__great blog post__ for slices](https://blog.golang.org/go-slices-usage-and-internals)
+  - [ ] [__great blog post__ for slices](https://blog.golang.org/go-slices-usage-and-internals)
 - [ ] Maps
 - [ ] Range
 - [ ] Functions
