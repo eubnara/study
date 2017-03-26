@@ -8,7 +8,7 @@
  - [x] Switch
  - [x] Arrays
  - [x] Slices
-  - [x] [__great blog post__ for slices](https://blog.golang.org/go-slices-usage-and-internals)
+   - [x] [__great blog post__ for slices](https://blog.golang.org/go-slices-usage-and-internals)
  - [x] Maps
  - [x] Range
  - [x] Functions
@@ -20,9 +20,9 @@
  - [x] Structs
  - [x] Methods
  - [x] Interfaces
-  - [ ] [__great blog post__ for interfaces](http://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go)
+   - [ ] [__great blog post__ for interfaces](http://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go)
  - [x] Errors
-  - [ ] [__great blog post__ for error handling](https://blog.golang.org/error-handling-and-go)
+   - [ ] [__great blog post__ for error handling](https://blog.golang.org/error-handling-and-go)
  - [x] Goroutines
  - [x] Channels
  - [x] Channel Buffering
