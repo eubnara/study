@@ -13,23 +13,25 @@
 - [x] Range
 - [x] Functions
 - [x] Multiple Return Values
-- [ ] Variadic Functions
-- [ ] Closures
-- [ ] Recursion
-- [ ] Pointers
-- [ ] Structs
-- [ ] Methods
-- [ ] Interfaces
-- [ ] Errors
-- [ ] Goroutines
-- [ ] Channels
-- [ ] Channel Buffering
-- [ ] Channel Synchronization
-- [ ] Channel Directions
-- [ ] Select
-- [ ] Timeouts
-- [ ] Non-Blocking Channel Operations
-- [ ] Closing Channels
+- [x] Variadic Functions
+- [x] Closures
+- [x] Recursion
+- [x] Pointers
+- [x] Structs
+- [x] Methods
+- [x] Interfaces
+ - [ ] [__great blog post__ for interfaces](http://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go)
+- [x] Errors
+ - [ ] [__great blog post__ for error handling](https://blog.golang.org/error-handling-and-go)
+- [x] Goroutines
+- [x] Channels
+- [x] Channel Buffering
+- [x] Channel Synchronization
+- [x] Channel Directions
+- [x] Select
+- [x] Timeouts
+- [x] Non-Blocking Channel Operations
+- [x] Closing Channels
 - [ ] Range over Channels
 - [ ] Timers
 - [ ] Tickers
