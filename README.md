@@ -1,7 +1,6 @@
 # Study
 
 
-
 ### Books I want to read
  - Learn Python the Hard Way
  - Hadoop
@@ -13,6 +12,10 @@
  - 1
  - 2
  
+ 
+ 
+## 공유사진
+![공유](https://github.com/eubnara/study/blob/master/image/0U.jpg)
  
 ## 해야할 일
  - [ ] 밥먹기
