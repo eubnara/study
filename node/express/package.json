@@ -1,0 +1,15 @@
+{
+  "name": "query_param_test",
+  "version": "1.0.0",
+  "description": "parameter 에 key, value pair 가 아닌 경우의 테스트",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "이유비",
+  "license": "ISC"
+}

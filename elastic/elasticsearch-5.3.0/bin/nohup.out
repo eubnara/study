@@ -1,0 +1,87 @@
+[2017-04-16T14:55:41,614][INFO ][o.e.n.Node               ] [my_node_name] initializing ...
+[2017-04-16T14:55:41,696][INFO ][o.e.e.NodeEnvironment    ] [my_node_name] using [1] data paths, mounts [[/home/eub (/home/eub/.Private)]], net usable_space [56.6gb], net total_space [112.9gb], spins? [possibly], types [ecryptfs]
+[2017-04-16T14:55:41,696][INFO ][o.e.e.NodeEnvironment    ] [my_node_name] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-04-16T14:55:41,698][INFO ][o.e.n.Node               ] [my_node_name] node name [my_node_name], node ID [bpnS1LgUS8yxCisZoaSSrA]
+[2017-04-16T14:55:41,698][INFO ][o.e.n.Node               ] [my_node_name] version[5.3.0], pid[7311], build[3adb13b/2017-03-23T03:31:50.652Z], OS[Linux/4.8.0-46-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-04-16T14:55:42,648][INFO ][o.e.p.PluginsService     ] [my_node_name] loaded module [aggs-matrix-stats]
+[2017-04-16T14:55:42,649][INFO ][o.e.p.PluginsService     ] [my_node_name] loaded module [ingest-common]
+[2017-04-16T14:55:42,649][INFO ][o.e.p.PluginsService     ] [my_node_name] loaded module [lang-expression]
+[2017-04-16T14:55:42,649][INFO ][o.e.p.PluginsService     ] [my_node_name] loaded module [lang-groovy]
+[2017-04-16T14:55:42,649][INFO ][o.e.p.PluginsService     ] [my_node_name] loaded module [lang-mustache]
+[2017-04-16T14:55:42,649][INFO ][o.e.p.PluginsService     ] [my_node_name] loaded module [lang-painless]
+[2017-04-16T14:55:42,650][INFO ][o.e.p.PluginsService     ] [my_node_name] loaded module [percolator]
+[2017-04-16T14:55:42,650][INFO ][o.e.p.PluginsService     ] [my_node_name] loaded module [reindex]
+[2017-04-16T14:55:42,650][INFO ][o.e.p.PluginsService     ] [my_node_name] loaded module [transport-netty3]
+[2017-04-16T14:55:42,650][INFO ][o.e.p.PluginsService     ] [my_node_name] loaded module [transport-netty4]
+[2017-04-16T14:55:42,651][INFO ][o.e.p.PluginsService     ] [my_node_name] no plugins loaded
+[2017-04-16T14:55:45,066][INFO ][o.e.n.Node               ] [my_node_name] initialized
+[2017-04-16T14:55:45,066][INFO ][o.e.n.Node               ] [my_node_name] starting ...
+[2017-04-16T14:55:45,272][INFO ][o.e.t.TransportService   ] [my_node_name] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-04-16T14:55:45,281][WARN ][o.e.b.BootstrapChecks    ] [my_node_name] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-04-16T14:55:48,351][INFO ][o.e.c.s.ClusterService   ] [my_node_name] new_master {my_node_name}{bpnS1LgUS8yxCisZoaSSrA}{73M4VGBaTFyGRuvlkYnzUQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-04-16T14:55:48,377][INFO ][o.e.h.n.Netty4HttpServerTransport] [my_node_name] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-04-16T14:55:48,387][INFO ][o.e.n.Node               ] [my_node_name] started
+[2017-04-16T14:55:48,397][INFO ][o.e.g.GatewayService     ] [my_node_name] recovered [0] indices into cluster_state
+[2017-04-16T16:51:18,839][INFO ][o.e.c.m.MetaDataCreateIndexService] [my_node_name] [customer] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-04-16T16:55:37,896][WARN ][r.suppressed             ] path: /customer/external/1, params: {pretty=, index=customer, id=1, type=external}
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:203) ~[?:1.8.0_121]
+	at org.elasticsearch.action.index.IndexRequest.source(IndexRequest.java:455) ~[elasticsearch-5.3.0.jar:5.3.0]
+	at org.elasticsearch.rest.action.document.RestIndexAction.prepareRequest(RestIndexAction.java:75) ~[elasticsearch-5.3.0.jar:5.3.0]
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:64) ~[elasticsearch-5.3.0.jar:5.3.0]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:260) ~[elasticsearch-5.3.0.jar:5.3.0]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:199) [elasticsearch-5.3.0.jar:5.3.0]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.dispatchRequest(Netty4HttpServerTransport.java:515) [transport-netty4-5.3.0.jar:5.3.0]
+	at org.elasticsearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:72) [transport-netty4-5.3.0.jar:5.3.0]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:349) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:341) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at org.elasticsearch.http.netty4.pipelining.HttpPipeliningHandler.channelRead(HttpPipeliningHandler.java:63) [transport-netty4-5.3.0.jar:5.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:349) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:341) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-codec-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:349) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:341) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:349) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:341) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:349) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:341) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293) [netty-codec-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267) [netty-codec-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:349) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:341) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:349) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:341) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:349) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:642) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:527) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:481) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:441) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.7.Final.jar:4.1.7.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-04-16T16:55:53,640][INFO ][o.e.c.m.MetaDataMappingService] [my_node_name] [customer/8R5apCVuQPGPjO88OwGEwA] create_mapping [external]
+[2017-04-16T17:00:09,489][INFO ][o.e.c.m.MetaDataDeleteIndexService] [my_node_name] [customer/8R5apCVuQPGPjO88OwGEwA] deleting index
+[2017-04-16T17:10:01,744][INFO ][o.e.c.m.MetaDataCreateIndexService] [my_node_name] [customer] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2017-04-16T17:10:01,897][INFO ][o.e.c.m.MetaDataMappingService] [my_node_name] [customer/bXkARYSASyif621S1JITXg] create_mapping [external]
+[2017-04-16T17:14:53,673][WARN ][o.e.m.j.JvmGcMonitorService] [my_node_name] [gc][young][7337][3] duration [1.3s], collections [1]/[2.2s], total [1.3s]/[1.4s], memory [306.9mb]->[160.9mb]/[1.9gb], all_pools {[young] [264.9mb]->[1.1mb]/[266.2mb]}{[survivor] [33.2mb]->[31.5mb]/[33.2mb]}{[old] [8.7mb]->[128.9mb]/[1.6gb]}
+[2017-04-16T17:14:53,674][WARN ][o.e.m.j.JvmGcMonitorService] [my_node_name] [gc][7337] overhead, spent [1.3s] collecting in the last [2.2s]
+[2017-04-16T17:19:34,894][INFO ][o.e.c.m.MetaDataMappingService] [my_node_name] [customer/bXkARYSASyif621S1JITXg] update_mapping [external]
+[2017-04-16T17:36:14,179][INFO ][o.e.n.Node               ] [my_node_name] stopping ...
+[2017-04-16T17:36:14,356][INFO ][o.e.n.Node               ] [my_node_name] stopped
+[2017-04-16T17:36:14,356][INFO ][o.e.n.Node               ] [my_node_name] closing ...
+[2017-04-16T17:36:14,402][INFO ][o.e.n.Node               ] [my_node_name] closed
