@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
 
 
+// jquery
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+// showdown.js
+  <script src="https://cdn.rawgit.com/showdownjs/showdown/1.6.3/dist/showdown.min.js">
+  </script>
+  <script>
+    var body_location = 'md/README.md';
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.js"
-      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-      crossorigin="anonymous"></script>
+    function getText(myUrl) {
+      var result = null;
+      $.ajax({
+        url: myUrl,
+        type: 'get',
+        dataType: 'html', // html 이라는 점에 주목
+        async: false, // 파일을 읽는 것이므로. async 는 여기서 필요없음
+        success: function(data) {
+          result = data;
+        }
+      });
+      FileReady = true;
+      return result;
+    }
+    var markdown_source = getText(body_location);
+    // convert markdown to html
 
-<script src="https://cdn.rawgit.com/showdownjs/showdown/1.6.3/dist/showdown.min.js">
-</script>
-    <script>
+    // get markdown content
+    var converter = new showdown.Converter(),
+      text = '#hello, markdown!',
+      html = converter.makeHtml(text);
+    var output_html = converter.makeHtml(markdown_source);
+    document.write(output_html);
+  </script>
 
-      var body_location = 'md/README.md';
-
-      function getText(myUrl){
-          var result = null;
-          $.ajax( { url: myUrl,
-                    type: 'get',
-                    dataType: 'html',
-                    async: false,
-                    success: function(data) { result = data; }
-                  }
-          );
-          FileReady = true;
-          return result;
-      }
-      var markdown_source = getText(body_location);
-      // convert markdown to html
-
-      // get markdown content
-      var converter = new showdown.Converter(),
-    text      = '#hello, markdown!',
-    html      = converter.makeHtml(text);
-      var output_html = converter.makeHtml(markdown_source);
-      document.write(output_html);
-    </script>
-
-  </head>
+</head>
 
 
-  <body>
-
-  </body>
+<body>
+</body>
 </html>
