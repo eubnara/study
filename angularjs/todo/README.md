@@ -1,12 +1,5 @@
-# my-to-do
+# 공식홈페이지 문서보고 4.x ver 공부
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.16.0.
+https://angular.io/docs/ts/latest/quickstart.html
 
-## Build & development
-
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+ - interpolation binding
