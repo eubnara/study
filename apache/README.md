@@ -1,4 +1,4 @@
-## apache 설치
+## apache httpd 실습
 
  cf) mac os 환경
  - configure, make and make install?
