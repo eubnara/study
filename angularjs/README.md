@@ -7,3 +7,8 @@ https://angular.io/docs/ts/latest/quickstart.html
   - ex) HeroDetailComponent
  - component _file_ name: lower dash case
   - ex) hero-detail.component.ts
+ - one class per file
+ - banana in the box [()]
+
+
+ - https://angular.io/docs/ts/latest/tutorial/toh-pt4.html
