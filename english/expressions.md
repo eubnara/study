@@ -702,3 +702,13 @@ Thanks. **It's a good thing** I didn't unpack.
    - 내가 원하는 표현을 빠르게 하는 게 아니라, 천천히 아는 한도 내에서 표현해 보기.
    - 영어를 쓰는 환경에서 배워야 가장 빨리 배운다고 했다.
    - 이를 코딩에도 대입해보면, 문법서를 보는 것이 도움은 되지만, 상황에 닥쳐서 API 를 보면서 헤쳐나가는 편이 빠르게 습득할 수도 있다.
+
+## 20170502 화
+
+ - I'd like to get a presciprtion filled.
+ - There is a nice coffee shop just two doors to the right.
+ - Is there a place that sells magazines nearby?
+ - I'll see you in a half hour or so.
+ - I don't know if the word is correct.
+ - For other medicines, they need a prescription.
+ 
