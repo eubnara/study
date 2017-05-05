@@ -714,3 +714,41 @@ Thanks. **It's a good thing** I didn't unpack.
    - language acquisition 노력을 안해도 된다.
    - 언어습득은 involuntary
    - talking is not practicing
+
+## 20170502 화
+
+ - I'd like to get a presciprtion filled.
+ - There is a nice coffee shop just two doors to the right.
+ - Is there a place that sells magazines nearby?
+ - I'll see you in a half hour or so.
+ - I don't know if the word is correct.
+ - For other medicines, they need a prescription.
+
+
+## 20170504 목
+
+ - 범죄 신고를 하고 싶습니다.
+   - I want to report a crime.
+ - 어젯밤에 도둑이 들었어요.
+   - My house was robbed last night.
+ - 바로 경찰을 보내드리겠습니다.
+   - I'll send a car right over.
+ - TV와 약간의 보석을 훔쳐갔어요
+   - My TV is gone as well as some jewelry.
+ - It's about someone who wants to get a prescription filled.
+ - But for other medicines, I will need a prescription.
+ - I don't know if the word is correct.
+ - It is more likely for me to get a disease from the hospital.
+ - How may I help you?
+   - What can I help you with?
+ - This will take about thrity minutes.
+   - You can get this **in** about thirty minutes.
+   - This will be ready in about thirty minutes.
+ - We're looking for a sofa to rest (x)
+   - We're looking for a sofa to lie on to. (o)
+ - It'll be ready to go abroad next week. (x)
+   - It'll be ready to fly abroad next week. (o)
+ - It's the best basketball game I had.(x)
+   - It's the best basketball game I've ever had. (o)
+ - burglar
+ - There are only a few people I can talk to these days.
