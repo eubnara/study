@@ -1,0 +1,17 @@
+ - mechanism
+   - "what capabilities are to be provided."
+ - policy
+   - "how those capabilities can be used."
+ - module:
+   - Each piece of code that can be added to the kernel at runtime is called a _module_.
+   - char/block/network module
+   - character devices(regular file 과 차이라면, character device 는 sequentially 접근한다는 점. move back and forth 를 가능하게 할 수도 있다. e.g. mmap lseek)
+     - /dev/console, /dev/ttyS0 ...
+   - block devices
+     - /dev
+     - handle only I/O operations
+     - one or more whole blocks
+  - file system
+    - device driver(x)
+    - software driver
+      - low-level data structures -> high-level data structures

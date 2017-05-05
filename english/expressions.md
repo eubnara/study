@@ -702,3 +702,15 @@ Thanks. **It's a good thing** I didn't unpack.
    - 내가 원하는 표현을 빠르게 하는 게 아니라, 천천히 아는 한도 내에서 표현해 보기.
    - 영어를 쓰는 환경에서 배워야 가장 빨리 배운다고 했다.
    - 이를 코딩에도 대입해보면, 문법서를 보는 것이 도움은 되지만, 상황에 닥쳐서 API 를 보면서 헤쳐나가는 편이 빠르게 습득할 수도 있다.
+
+
+ - learning vs. acquisition
+ - 이해하지 못하면 아무짝에도 쓸모없다. 못알아들었으면 효과가 없다.
+   - 아는 게 아니고 이해!
+   - 이해가 acquisition 에서 중요하다.
+   - 어떻게 말했는지가 아니라 무엇을 얘기했는지가 중요.
+   - 말했던걸 알아내려고 하는게 언어습득의 키
+   - **comprehensible input** -> comprehensible output
+   - language acquisition 노력을 안해도 된다.
+   - 언어습득은 involuntary
+   - talking is not practicing
