@@ -18,3 +18,5 @@
    - chapter 2
  - the linux command line
    - https://www.safaribooksonline.com/library/view/the-linux-command/9781593273897/index.html
+ - mapreduce 
+   - mapreduce-osdi04.pdf
