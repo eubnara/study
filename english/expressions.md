@@ -752,3 +752,25 @@ Thanks. **It's a good thing** I didn't unpack.
    - It's the best basketball game I've ever had. (o)
  - burglar
  - There are only a few people I can talk to these days.
+
+## 20170508
+
+ - I'll send someone to the store with you to look for her.
+ - I looked everywhere in the store and walked around the block twice.
+ - She doesn't know the way home.
+ - Some robbers broke into my house last night.
+   - My house was robbed last night.
+   - My house was broken into last night.
+ - I'm getting older.
+   - I'm becoming grown-up. (x)
+ - There are a few people I can talk to these days.
+ - I saw it on TV.
+ - You can't buy a gun without license.
+
+## 20170509
+
+ - 주차미터기에 돈을 넣지 않았나요?
+   - Didn't you put money in the meter?
+ - 저런, 대가를 톡톡히 치렀군요.
+   - Well, that's an expensive lesson.
+ - 
