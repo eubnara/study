@@ -773,4 +773,4 @@ Thanks. **It's a good thing** I didn't unpack.
    - Didn't you put money in the meter?
  - 저런, 대가를 톡톡히 치렀군요.
    - Well, that's an expensive lesson.
- - 
+ - Big cars have a lot of space for things.
