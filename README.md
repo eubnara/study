@@ -1,7 +1,7 @@
 # Study
 
 
-### Progress
+### Progress(공부할 차례)
  - Mastering Apache Maven3
    - POM extending and overriding
  - Linux Network Administrator's Guide, Second Edition
@@ -20,3 +20,4 @@
    - https://www.safaribooksonline.com/library/view/the-linux-command/9781593273897/index.html
  - mapreduce 
    - mapreduce-osdi04.pdf
+ - Functional Programming in Scala
