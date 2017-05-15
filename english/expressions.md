@@ -774,3 +774,9 @@ Thanks. **It's a good thing** I didn't unpack.
  - 저런, 대가를 톡톡히 치렀군요.
    - Well, that's an expensive lesson.
  - Big cars have a lot of space for things.
+
+## 20170516 화
+
+ - 정말 가고 싶어요.
+   - I'd love to **come**.
+ -
