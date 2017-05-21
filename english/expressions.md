@@ -775,6 +775,7 @@ Thanks. **It's a good thing** I didn't unpack.
    - Well, that's an expensive lesson.
  - Big cars have a lot of space for things.
 
+<<<<<<< HEAD
 ## 20170510 수
 
  - running the red lights
@@ -804,3 +805,10 @@ Thanks. **It's a good thing** I didn't unpack.
    - Which day and what time?
  - we don't practice that culture in my country.
  - It's not common to have a party in my country.
+=======
+## 20170516 화
+
+ - 정말 가고 싶어요.
+   - I'd love to **come**.
+ -
+>>>>>>> ebd6df1bfd28f1739913bfd01f3aae83cb6f7ec9

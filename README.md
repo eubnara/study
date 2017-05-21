@@ -2,6 +2,8 @@
 
 
 ### Progress(공부할 차례)
+ - APUE(Advanced Programming in UNIX environment)
+   - 1.7 Error Handling
  - Mastering Apache Maven3
    - POM extending and overriding
  - Linux Network Administrator's Guide, Second Edition
