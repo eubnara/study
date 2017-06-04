@@ -17,9 +17,13 @@
  - shell scripting
    - https://wiki.kldp.org/HOWTO/html/Adv-Bash-Scr-HOWTO/exit-status.html
  - learning spark
-   - chapter 4
+   - Chapter 4
  - the linux command line
    - https://www.safaribooksonline.com/library/view/the-linux-command/9781593273897/index.html
  - mapreduce 
    - mapreduce-osdi04.pdf
  - Functional Programming in Scala
+
+
+
+

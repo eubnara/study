@@ -741,7 +741,7 @@ Thanks. **It's a good thing** I didn't unpack.
  - It is more likely for me to get a disease from the hospital.
  - How may I help you?
    - What can I help you with?
- - This will take about thrity minutes.
+ - This will take about thirty minutes.
    - You can get this **in** about thirty minutes.
    - This will be ready in about thirty minutes.
  - We're looking for a sofa to rest (x)
@@ -775,6 +775,35 @@ Thanks. **It's a good thing** I didn't unpack.
    - Well, that's an expensive lesson.
  - Big cars have a lot of space for things.
 
+## 20170510 수
+
+ - running the red lights
+   - It was his fault for running the red light.
+ - 판사가 결정하겠지요.
+   - We'll let the judge decide.
+ - 사고 조사서를 써주세요.
+   - Please write an accident report.
+ - Why are you so upset?
+   - How come you're angry?
+   - What made you so upset?
+ - They are in a hurry to destination.
+
+## 20170515 월
+
+ - 집들이
+   - housewarming
+ - check with
+   - ~와 맞춰보다
+ - 이번 주말에 뭘 할거니?
+   - What's going on this weekend?
+ - 집들이를 할 거야
+   - I'm having a housewarming party.
+ - 참석 여부를 내일 알려줘
+   - Let me know tomorrow if you can come.
+ - 언제 몇시에 해?
+   - Which day and what time?
+ - we don't practice that culture in my country.
+ - It's not common to have a party in my country.
 ## 20170516 화
 
  - 정말 가고 싶어요.
