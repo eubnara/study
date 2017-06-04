@@ -23,6 +23,8 @@
  - mapreduce 
    - mapreduce-osdi04.pdf
  - Functional Programming in Scala
+ - bash script
+   - https://mug896.gitbooks.io/shell-script/content/variables.html
 
 
 
