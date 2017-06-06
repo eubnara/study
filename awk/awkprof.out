@@ -1,0 +1,15 @@
+# gawk profile, created Sun Jun  4 12:44:03 2017
+
+# BEGIN rule(s)
+
+BEGIN {
+    FS = "|"
+}
+
+# Rule(s)
+
+{
+    n = split($2, arr, " ")
+        printf "%s\t%s\n", $1, n
+}
+
