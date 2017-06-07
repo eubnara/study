@@ -24,8 +24,7 @@
    - mapreduce-osdi04.pdf
  - Functional Programming in Scala
  - Bash Shell Script
-   - https://mug896.gitbooks.io/shell-script/content/shebang.html
-
+   - https://mug896.gitbooks.io/shell-script/content/arrays.html
 
 
 
