@@ -6009,7 +6009,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1593ms :: artifacts dl 37ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2247ms :: artifacts dl 61ms[0m
 [0m[[0mdebug[0m] [0m	report for default#spark-build;0.1-SNAPSHOT compile produced in /home/eub/github.com/study/spark/project/target/resolution-cache/reports/default-spark-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#spark-build;0.1-SNAPSHOT runtime produced in /home/eub/github.com/study/spark/project/target/resolution-cache/reports/default-spark-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#spark-build;0.1-SNAPSHOT test produced in /home/eub/github.com/study/spark/project/target/resolution-cache/reports/default-spark-build-test.xml[0m
@@ -6023,5 +6023,5 @@
 [0m[[0mdebug[0m] [0m	report for default#spark-build;0.1-SNAPSHOT docs produced in /home/eub/github.com/study/spark/project/target/resolution-cache/reports/default-spark-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#spark-build;0.1-SNAPSHOT pom produced in /home/eub/github.com/study/spark/project/target/resolution-cache/reports/default-spark-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#spark-build;0.1-SNAPSHOT scala-tool produced in /home/eub/github.com/study/spark/project/target/resolution-cache/reports/default-spark-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1593ms resolve - 37ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2247ms resolve - 61ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

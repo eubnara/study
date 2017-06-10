@@ -6,7 +6,7 @@ import org.apache.spark.SparkConf
 
 object SimpleApp {
   def main(args: Array[String]) {
-    val logFile = "/home/eub/programs/spark/README.md"
+    val logFile = "/home/eub/workspace/spark-2.1.1-bin-hadoop2.7/README.md"
     val conf = new SparkConf().setAppName("Simple Application")
     val sc = new SparkContext(conf)
     val logData = sc.textFile(logFile, 2).cache()
