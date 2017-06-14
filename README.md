@@ -24,7 +24,7 @@
    - mapreduce-osdi04.pdf
  - Functional Programming in Scala
  - Bash Shell Script
-   - https://mug896.gitbooks.io/shell-script/content/process_creation.html
+   - https://mug896.gitbooks.io/shell-script/content/commands.html
 
 
 
