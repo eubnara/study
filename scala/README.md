@@ -1,5 +1,5 @@
 Basic Types and Operations
-    Floating point literals
+    5.5 ARITHMETIC OPERATIONS
 
 
 - function literal
