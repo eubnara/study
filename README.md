@@ -1,5 +1,16 @@
 # Study
 
+## 7월 계획
+
+  1. 하던 일 마무리 잘 하기
+    - spark study, preparation for seminar
+  2. programming in scala
+    - 토, 일 각각 하루에 4 챕터씩
+    - 4 * 2 * 4 == 32, 한 달 완성 목표
+  3. 영어 스피킹 연습
+    - 지하철 출퇴근길 영어 문장 구성 연습
+    - GFS paper 로
+    - 해석 -> 머리 속에서의 이해 -> 영어로 표현해 보기
 
 ### Progress(공부할 차례)
  - APUE(Advanced Programming in UNIX environment)
@@ -25,6 +36,4 @@
  - Functional Programming in Scala
  - Bash Shell Script
    - https://mug896.gitbooks.io/shell-script/content/commands.html
-
-
 
