@@ -36,4 +36,6 @@
  - Functional Programming in Scala
  - Bash Shell Script
    - https://mug896.gitbooks.io/shell-script/content/commands.html
+ - Expert Hadoop Administration
+   - Managing and Protecting Hadoop Data and High Availability
 
