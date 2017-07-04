@@ -16,3 +16,8 @@
     - Being able to talk intelligently and confidently about a project for which you played a primary role in its sucess is incredibly important.
     - Make sure you can describe the problem clearly and succinctly and how your project solved the problem, even to a nontechnical person.
     - Displaying a passion for programming is always positive and one way to make yourself stand out from the other candidates.
+
+## Approaches to programming problems
+
+  - Describe the better way to solve the problem, but solve the question as it was asked. 
+  - Keep talking! Always explain what you are doing! Otherwise, the interviewer has no way of knowing how you tackle complex programming problems.
