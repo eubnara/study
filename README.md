@@ -14,6 +14,8 @@
 
 ### Subjects & Current status
 
+  - 이것이 우분투 리눅스다?
+  - Building Microservices(마이크로서비스 아키텍처 구축)
   - Docker
     - 가장 빨리 만나는 docker http://pyrasis.com/docker.html
     - Docker architecture
