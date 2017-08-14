@@ -1,17 +1,5 @@
 # Study
 
-## 7월 계획
-
-  1. 하던 일 마무리 잘 하기
-    - ~~spark study~~, preparation for seminar
-  2. programming in scala
-    - 토, 일 각각 하루에 4 챕터씩
-    - 4 * 2 * 4 == 32, 한 달 완성 목표
-  3. 영어 스피킹 연습
-    - 지하철 출퇴근길 영어 문장 구성 연습
-    - GFS paper 로
-    - 해석 -> 머리 속에서의 이해 -> 영어로 표현해 보기
-
 ### Subjects & Current status
 
   - 이것이 우분투 리눅스다?
@@ -55,3 +43,6 @@
   - <오픈 스택을 다루는 기술>
   - jenkins 로 또 다른 자동화 작업을 진행할 수 있을까? (단순 빌드자동화 말고.)
   - Angular 4
+  - https://github.com/getify/You-Dont-Know-JS
+  - YDKJS
+    - https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md
