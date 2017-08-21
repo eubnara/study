@@ -1,0 +1,12 @@
+packages: [
+  "atom-beautify"
+  "atom-typescript"
+  "busy-signal"
+  "emmet"
+  "intentions"
+  "linter"
+  "linter-ui-default"
+  "package-sync"
+  "pigments"
+  "seti-ui"
+]
