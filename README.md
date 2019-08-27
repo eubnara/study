@@ -2,47 +2,41 @@
 
 ### Subjects & Current status
 
-  - 이것이 우분투 리눅스다?
-  - Building Microservices(마이크로서비스 아키텍처 구축)
-  - Docker
-    - 가장 빨리 만나는 docker http://pyrasis.com/docker.html
-    - Docker architecture
-      - https://docs.docker.com/engine/docker-overview/#docker-engine
-  - service discovery?
-    - consul 로 다량의 서버에 자동화 작업하는 스크립트를 띄워보기
-    - 띄워진 서비스들이 어디 서버에서 작업 중인지 알아내기?
-    - 현재 진행 상황, 완료된 상황, 남은 상황 알아내기?
-  - chef란?
-  - YARN 이 container 를 관리하는 방식?
-  - APUE(Advanced Programming in UNIX environment)
-    - 1.7 Error Handling
-  - Mastering Apache Maven3
-    - POM extending and overriding
-  - Linux Network Administrator's Guide, Second Edition
-    - Chapter 3. Configuring the Networking Hardware
-  - 가장 빨리 만나는 GO 언어
-    - Unit 17 for 반복문 사용하기
-  - 9가지 사례로 익히는 고급 스파크 분석
-    - Chapter 3
-  - sed(stream editor)
-    - https://mug896.gitbooks.io/sed-script/content/substitute.html
-  - 고급 Bash 스크립팅 가이드
-    - https://wiki.kldp.org/HOWTO/html/Adv-Bash-Scr-HOWTO/exit-status.html
-  - learning spark
-    - [x] 1회독
-  - the linux command line
-    - https://www.safaribooksonline.com/library/view/the-linux-command/9781593273897/index.html
-  - mapreduce
-    - mapreduce-osdi04.pdf
-  - Functional Programming in Scala
-  - Bash Shell Script
-    - https://mug896.gitbooks.io/shell-script/content/commands.html
-  - Expert Hadoop Administration
-    - Managing and Protecting Hadoop Data and High Availability
-  - 알고리즘, 자료구조
-  - <오픈 스택을 다루는 기술>
-  - jenkins 로 또 다른 자동화 작업을 진행할 수 있을까? (단순 빌드자동화 말고.)
-  - Angular 4
-  - https://github.com/getify/You-Dont-Know-JS
-  - YDKJS
-    - https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md
+- Docker
+  - 가장 빨리 만나는 docker http://pyrasis.com/docker.html
+  - Docker architecture
+    - https://docs.docker.com/engine/docker-overview/#docker-engine
+- APUE(Advanced Programming in UNIX environment)
+  - 1.7 Error Handling
+- Mastering Apache Maven3
+  - POM extending and overriding
+- Linux Network Administrator's Guide, Second Edition
+  - Chapter 3. Configuring the Networking Hardware
+- 가장 빨리 만나는 GO 언어
+  - Unit 17 for 반복문 사용하기
+- 9가지 사례로 익히는 고급 스파크 분석
+  - Chapter 3
+- sed(stream editor)
+  - https://mug896.gitbooks.io/sed-script/content/substitute.html
+- 고급 Bash 스크립팅 가이드
+  - https://wiki.kldp.org/HOWTO/html/Adv-Bash-Scr-HOWTO/exit-status.html
+- learning spark
+  - [x] 1회독
+- the linux command line
+  - https://www.safaribooksonline.com/library/view/the-linux-command/9781593273897/index.html
+- mapreduce
+  - mapreduce-osdi04.pdf
+- Functional Programming in Scala
+- Bash Shell Script
+  - https://mug896.gitbooks.io/shell-script/content/commands.html
+- Expert Hadoop Administration
+  - Managing and Protecting Hadoop Data and High Availability
+- [x] YDKJS
+  - https://github.com/getify/You-Dont-Know-JS/
+- Linux Kernel Development
+  - "12. Memory management" 먼저 읽어보는 중, Per-CPU Data at Compile-Time 부터
+- Java concurrency in practice
+  - "3. Sharing object"
+- react native
+  - 공식 홈페이지 document 참고: https://facebook.github.io/react-native/docs/getting-started
+  - `More resources` 까지 읽음. `GUIDE` 이하 읽을 차례

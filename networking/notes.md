@@ -1,0 +1,13 @@
+- Netfilter
+  - `iptables` is the command used to configure it
+- iptables groups network packet processing rules into tables by function
+  - packet filtering
+  - network address translation
+  - other packet mangling
+  - each of which have chains (sequences) of processing rules
+- Rules
+  - matches: used to determine which packets the rule will apply to
+  - targets: that determine what will be done with the matching packets
+- iptables: OSI layer 3
+- ebtables(Ethernet Bridge Tables): OSI layer 2
+
