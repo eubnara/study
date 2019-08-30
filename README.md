@@ -40,3 +40,4 @@
 - react native
   - 공식 홈페이지 document 참고: https://facebook.github.io/react-native/docs/getting-started
   - `More resources` 까지 읽음. `GUIDE` 이하 읽을 차례
+- [ ] UNIX and Linux System Administration Handbook, 5th Edition
